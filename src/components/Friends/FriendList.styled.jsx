@@ -8,11 +8,6 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li`
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 12px;
-
     width: 100%;
     padding: 12px;
     border: 1px solid #dce3ef;
@@ -21,6 +16,13 @@ export const Item = styled.li`
     &:not(:last-child) {
         margin-bottom: 8px;
     }
+`;
+
+export const ItemContainer = styled.div`
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
 `;
 
 export const Status = styled.span`
